@@ -1,0 +1,6 @@
+<RCC>
+    <qresource>
+        <file>icon.ico</file>
+        <file>exit.ico</file>
+    </qresource>
+</RCC>

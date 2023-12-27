@@ -41,7 +41,7 @@ class ButtonHandler:
         if window.accounts.currentRow() % 2 == 0:
             modal = QMessageBox()
             modal.setWindowTitle("Confirmation")
-            modal.setWindowIcon(QIcon(":/icon.ico"))
+            modal.setWindowIcon(QIcon(":/icons/icon"))
             modal.setText(f"Are you sure you want to delete this account?\nSelected account: '{window.accounts.currentItem().text()}'")
             modal.setIcon(QMessageBox.Warning)
             modal.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)

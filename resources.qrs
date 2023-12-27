@@ -1,6 +1,6 @@
 <RCC>
-    <qresource>
-        <file>icon.ico</file>
-        <file>exit.ico</file>
+    <qresource prefix="icons">
+        <file alias="icon">assets/icon.ico</file>
+        <file alias="exit">assets/exit.ico</file>
     </qresource>
 </RCC>

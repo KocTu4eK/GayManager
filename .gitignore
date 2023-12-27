@@ -1,3 +1,4 @@
 output/
 source/__pycache__/
 source/resources.py
+accounts.json

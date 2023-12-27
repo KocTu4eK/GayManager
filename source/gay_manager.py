@@ -23,7 +23,7 @@ class GayManager(QtWidgets.QMainWindow):
         self.setFixedSize(260, 370)
         self.frameGeometry().moveCenter(QtWidgets.QDesktopWidget().availableGeometry().center())
         self.setWindowTitle("Gay Manager")
-        self.setWindowIcon(QIcon(":/icon.ico"))
+        self.setWindowIcon(QIcon(":/icons/icon"))
 
         # Accounts
         self.accounts = QtWidgets.QListWidget(self)
@@ -60,10 +60,10 @@ class GayManager(QtWidgets.QMainWindow):
 
     def create_tray_icon(self):
         self.tray_icon = QtWidgets.QSystemTrayIcon(self)
-        self.tray_icon.setIcon(QIcon(":/icon.ico"))
+        self.tray_icon.setIcon(QIcon(":/icons/icon"))
 
         quit_action = QtWidgets.QAction("Exit", self)
-        quit_action.setIcon(QIcon(":/exit.ico"))
+        quit_action.setIcon(QIcon(":/icons/exit"))
         quit_action.triggered.connect(QtWidgets.qApp.quit)
 
         tray_menu = QtWidgets.QMenu()

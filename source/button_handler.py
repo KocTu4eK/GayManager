@@ -28,11 +28,13 @@ class ButtonHandler:
             pyautogui.click(900, 450, duration=0.1, tween=pyautogui.easeInOutQuad) # login field
             sleep(0.05)
             pyperclip.copy(account["login"])
+            sleep(0.05)
             pyautogui.hotkey("ctrl", "v") # login input
             sleep(0.05)
             pyautogui.click(900, 520, duration=0.1, tween=pyautogui.easeInOutQuad) # password field
             sleep(0.05)
             pyperclip.copy(account["password"])
+            sleep(0.05)
             pyautogui.hotkey("ctrl", "v") # password input
             sleep(0.05)
             pyautogui.click(950, 670, duration=0.1, tween=pyautogui.easeInOutQuad) # start game
